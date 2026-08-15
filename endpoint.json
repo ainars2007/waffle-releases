@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "_comment": "Where Waffle asks what a sample is. Read by the app at most once a day and cached; if this file is unreachable the app keeps its last known value, and failing that the one compiled into the build. Change the URL here to move the API without shipping a release - it reaches machines nobody will ever touch again. This repo is the right home for it because self-updates already depend on it, so it is not a new thing that can fail.",
+  "tags": "https://waffleaudio.com/api/v1/"
+}
